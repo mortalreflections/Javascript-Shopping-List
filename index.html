@@ -1,0 +1,38 @@
+<div id="app">
+  <head>
+    <script
+      src="https://kit.fontawesome.com/3ae4f2eb1e.js"
+      crossorigin="anonymous"
+      defer
+    ></script>
+  </head>
+  <div class="container">
+    <header>
+      <h1>Shopping List</h1>
+      <img src="images/note.png" />
+    </header>
+    <form id="item-form">
+      <div class="form-control">
+        <input
+          class="form-input"
+          id="item-input"
+          placeholder="Enter an item to add"
+        />
+      </div>
+      <div class="form-control">
+        <button type="submit" class="btn">
+          <i class="fa-solid fa-plus"></i> Add Item
+        </button>
+      </div>
+    </form>
+    <div class="form-control">
+      <input
+        class="form-input-filter"
+        id="filter-list"
+        placeholder="search"
+      />
+    </div>
+    <ul id="item-list" class="items"></ul>
+    <button id="clear" class="btn-clear">Clear All</button>
+  </div>
+</div>
